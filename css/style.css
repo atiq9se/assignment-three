@@ -4,6 +4,20 @@ body{
     font-family: "Manrope", sans-serif;
 }
 
+/* portfoli part start */
+.portfolio-one{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap:20px;
+}
+.portfolio-two{
+    display: grid;
+    grid-template-columns:1fr 2fr 1fr;
+    gap:20px;
+    margin-top:20px;
+}
+/* portfoli part end */
+
 .project-section{
     background-image: url(../images/bg.jpg);
     background-size: cover;
