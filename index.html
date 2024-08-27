@@ -14,14 +14,15 @@
 
     <body>
         <header class="bg-slate-100">
-            <div class="navbar container px-12 mx-auto py-7">
-                <div class="flex w-full justify-between">
+            <div class="navbar container px-4 lg:px-12 mx-auto py-7">
+                <div class="w-full flex justify-between">
+                <div class="w-full lg:w-1/3 flex justify-between">
                   <a class="flex items-center gap-3 text-3xl font-bold"><img src="images/round-arrow1.png" alt="">Rinterio</a>
                   <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden bg-white border rounded-full">
+                    <div tabindex="0" role="button" class="p-3 lg:hidden bg-white border rounded-full">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-5 w-5"
+                        class="h-6 w-6"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor">
@@ -44,11 +45,12 @@
                     <li><a class="text-base" href="#">Contact us</a></li>
                   </ul>
                 </div>
-                <div class="navbar-end hidden lg:block">
+                <div class="navbar-end hidden lg:block lg:flex">
                     <a href="#" class="mr-3"><img src="images/search.png" alt=""></a>
                     <a href="#" class="mr-3"> <img src="images/shopping.png" alt=""></a>
                     <a class="btn text-xl font-bold rounded-3xl bg-lime-400 flex">Book Consult <img src="images/round-arrow2.png" alt=""></a>
                 </div>
+            </div>
             </div>
         </header>
         <main>
@@ -57,8 +59,8 @@
                 <div class="hero px-5 lg:px-12 pb-16">
                     <div class="hero-content text-center flex-col">
                         <img src="images/banner.png" alt="">
-                        <h1 class="text-2xl lg:text-6xl font-extrabold lg:w-4/5">A barn house of this design has a striking appearance</h1>
-                        <p class="py-6 font-base lg:w-5/6">
+                        <h1 class="text-2xl lg:text-6xl font-extrabold w-4/5">A barn house of this design has a striking appearance</h1>
+                        <p class="py-2 lg:py-6 font-base lg:w-5/6">
                             The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.
                         </p>
                         <button class="btn text-xl font-bold rounded-3xl bg-lime-300">View Details <img src="images/round-arrow1.png" alt=""></button>
@@ -67,16 +69,17 @@
                 </div>
             </section>
             <!-- BANNER PART END -->
+
             <!-- ABOUT US PART START -->
             <section class="bg-slate-200">
-                <div class="container px-12 grid grid-cols-1 lg:grid-cols-2 mx-auto py-20 gap-6">
+                <div class="container px-4 lg:px-12 grid grid-cols-1 lg:grid-cols-2 mx-auto py-20 gap-6">
                     <div>
                         <div class="relative">
                             <div class="absolute -left-10 bottom-14"> <img src="images/ring.png" alt=""></div>
                             <div class="btn hover:border-white hover:bg-white text-xl font-bold rounded-3xl bg-white"><img src="images/arrow.png" alt=""> About us</div>
                         </div>
-                        <h2 class="text-2xl lg:text-4xl font-bold pt-8 text-center lg:text-left">We design thoughtful, liveable spaces</h2>
-                        <p class="text-sm lg:text-base pt-8 opacity-80 text-center lg:text-left">The barn house captivates with its blend of rustic charm and 
+                        <h2 class="text-2xl lg:text-4xl font-bold pt-8 text-center lg:text-left px-3 lg:px-0">We design thoughtful, liveable spaces</h2>
+                        <p class="text-sm lg:text-base pt-3 lg:pt-8 opacity-80 text-center lg:text-left px-3 lg:px-0">The barn house captivates with its blend of rustic charm and 
                             modern sophistication, featuring weathered wood, sleek metal accents.</p>
                         <div class="rounded-lg bg-white flex gap-3 items-center p-6 mt-8">
                             <div><img src="images/commercial.png" alt=""></div>
@@ -203,6 +206,45 @@
                 </div>
             </section>
             <!-- DISSCUSS PROJECT PART END -->
+
+             <!-- TEAM MEMBER PART START -->
+             <section class="py-20">
+                <div class="container px-4 mx-auto">
+                    <div class="text-center">
+                        <div class="btn bg-lime-200 hover:border-white hover:bg-lime-200 text-base lg:text-xl font-bold rounded-3xl"><img src="images/arrow.png" alt="">Explore our team</div>
+                        <h2 class="text-2xl lg:text-4xl font-bold pt-4">Our Team Member</h2>
+                        <p class="text-base lg:w-2/3 mx-auto py-6 opacity-80">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                        <a href=""></a>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                        <div class="rounded-lg bg-[#edebec] p-4">
+                            <img src="images/team1.png" alt="" class="rounded-lg">
+                            <h3 class="text-xl font-bold py-2 text-center">Jason Patel</h3>
+                            <p class="text-base opacity-80 text-center">01722555666</p>
+                            <p class="text-base opacity-80 text-center">jason@gmail.com</p>
+                        </div>
+                        <div class="rounded-lg bg-[#edebec] p-4">
+                            <img src="images/team2.png" alt="">
+                            <h3 class="text-xl font-bold py-2 text-center">Debra Myers</h3>
+                            <p class="text-base opacity-80 text-center">01722555667</p>
+                            <p class="text-base opacity-80 text-center">debra@gmail.com</p>
+                        </div>
+                        <div class="rounded-lg bg-[#edebec] p-4">
+                            <img src="images/team3.png" alt="">
+                            <h3 class="text-xl font-bold py-2 text-center">Donald Palmer</h3>
+                            <p class="text-base opacity-80 text-center">01722555668</p>
+                            <p class="text-base opacity-80 text-center">Donald@gmail.com</p>
+                        </div>
+                        <div class="rounded-lg bg-[#edebec] p-4">
+                            <img src="images/team4.png" alt="">
+                            <h3 class="text-xl font-bold py-2 text-center">Christine Gilbert</h3>
+                            <p class="text-base opacity-80 text-center">01722555669</p>
+                            <p class="text-base opacity-80 text-center">christine@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+             </section>
+            <!-- TEAM MEMBER PART END -->
 
         </main>
 
