@@ -22,3 +22,17 @@ body{
     background-image: url(../images/bg.jpg);
     background-size: cover;
 }
+
+@media(max-width: 480px) {
+    .portfolio-one{
+        display: grid;
+        grid-template-columns:1fr;
+        gap:20px;
+    }
+    .portfolio-two{
+        display: grid;
+        grid-template-columns:1fr;
+        gap:20px;
+        margin-top:20px;
+    }
+}
